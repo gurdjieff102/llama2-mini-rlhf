@@ -1,0 +1,10 @@
+base_model: meta-llama/Llama-2-7b-hf
+load_in_4bit: true
+train_dataset: data/sft_data.jsonl
+output_dir: output/sft
+per_device_train_batch_size: 1
+learning_rate: 2e-4
+num_train_epochs: 1
+lora_r: 8
+lora_alpha: 16
+gradient_checkpointing: true
