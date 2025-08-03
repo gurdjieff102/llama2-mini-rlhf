@@ -1,5 +1,0 @@
-transformers
-trl
-peft
-datasets
-accelerate
